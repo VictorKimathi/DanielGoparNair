@@ -51,15 +51,8 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-serif font-bold mb-4">Connect</h3>
             <div className="flex space-x-4 mb-4">
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-[#faf6f2] hover:text-[#f4b942] transition duration-300">
-                <InstagramIcon size={24} />
-              </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-[#faf6f2] hover:text-[#f4b942] transition duration-300">
-                <LinkedinIcon size={24} />
-              </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-[#faf6f2] hover:text-[#f4b942] transition duration-300">
-                <TwitterIcon size={24} />
-              </a>
+            
+           
             </div>
             <div className="flex items-center space-x-2">
               <MailIcon size={18} className="text-[#faf6f2]" />
