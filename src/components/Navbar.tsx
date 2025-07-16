@@ -89,17 +89,7 @@ const Navbar = () => {
               </button>
             </div>
             {/* Mobile social icons */}
-            <div className="flex justify-start space-x-4 px-3 py-3">
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-[#2d4a3a] hover:text-[#d4704a] transition duration-300">
-                <InstagramIcon size={20} />
-              </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-[#2d4a3a] hover:text-[#d4704a] transition duration-300">
-                <LinkedinIcon size={20} />
-              </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-[#2d4a3a] hover:text-[#d4704a] transition duration-300">
-                <TwitterIcon size={20} />
-              </a>
-            </div>
+        
           </div>
         </div>}
     </header>;
