@@ -24,15 +24,15 @@ const Navbar = () => {
             <Link to="/portfolio" className="text-[#2d4a3a] hover:text-[#d4704a] px-3 py-2 text-lg font-medium transition duration-300">
               Portfolio
             </Link>
-            <Link to="/recipes" className="text-[#2d4a3a] hover:text-[#d4704a] px-3 py-2 text-lg font-medium transition duration-300">
+            {/* <Link to="/recipes" className="text-[#2d4a3a] hover:text-[#d4704a] px-3 py-2 text-lg font-medium transition duration-300">
               Recipes
-            </Link>
+            </Link> */}
             <Link to="/contact" className="text-[#2d4a3a] hover:text-[#d4704a] px-3 py-2 text-lg font-medium transition duration-300">
               Contact
             </Link>
           </nav>
           {/* Desktop Social & Search */}
-          <div className="hidden md:flex items-center space-x-4">
+          {/* <div className="hidden md:flex items-center space-x-4">
             <button onClick={() => setIsSearchOpen(!isSearchOpen)} className="text-[#2d4a3a] hover:text-[#d4704a] transition duration-300">
               <SearchIcon size={20} />
             </button>
@@ -45,7 +45,7 @@ const Navbar = () => {
             <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-[#2d4a3a] hover:text-[#d4704a] transition duration-300">
               <TwitterIcon size={20} />
             </a>
-          </div>
+          </div> */}
           {/* Mobile menu button */}
           <div className="md:hidden flex items-center">
             <button onClick={() => setIsOpen(!isOpen)} className="inline-flex items-center justify-center p-2 rounded-md text-[#2d4a3a] hover:text-[#d4704a] focus:outline-none transition duration-300">
