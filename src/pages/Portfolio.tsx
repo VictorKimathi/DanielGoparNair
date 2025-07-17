@@ -3,44 +3,25 @@ import React from 'react';
 
 const portfolioItems = [
   {
-    title: "In-Depth Restaurant Reviews",
-    description: "Wrote detailed, voice-driven reviews for Oregon Eats and Spoon & Savor that combined sensory storytelling with journalistic research.",
+    title: "When Family Recipes Exist Only by Memory",
+    description: "Some memories are carried not in stories, but in the air. A trace of butter in a hot pan or the warm sweetness of cardamom can pull someone back to a childhood kitchen where a meal was served without ceremony. These moments often carry more emotion than photographs. While the color of a curtain or the shape of a plate may fade, the smell of garlic, ghee, or slow-cooked lentils can stay vivid for decades.",
     role: "Freelance Food Writer",
-    client: "Oregon Eats / Spoon & Savor",
-    year: "2017 – Present",
-    tags: ["Food Writing", "SEO", "Journalism"]
+    date: "March 17 2025",
+    href: "When_Family_Recipes_Exist_Only_by_Memory.pdf"
   },
   {
-    title: "Ingredient Spotlights & Tutorials",
-    description: "Created cooking guides and tutorials highlighting seasonal ingredients and practical kitchen skills.",
+    title: "5 Comfort Dishes That Start with a Can of Fish",
+    description: "Comfort food doesn’t always begin with a recipe passed down or a long list of fresh ingredients. It often begins with an overlooked item in the pantry, like a can of tuna, salmon, or sardines that’s been sitting in plain sight. Long tied to quick lunches or convenience cooking, canned fish has more to offer than most expect. It brings warmth, memory, and a kind of depth that doesn't need much else.",
     role: "Freelance Food Writer",
-    client: "Daily Foodie",
-    year: "2017 – Present",
-    tags: ["Recipe Writing", "Tutorials", "Culinary"]
+    date: "April 28 2025",
+    href: "5_Comfort_Dishes_That_Start_with_a_Can_of_Fish.pdf"
   },
   {
-    title: "The Pantry Table Blog",
-    description: "Created a blog dedicated to accessible home cooking. Handled recipes, photography, editing, and guest collaborations.",
+    title: "What You’re Actually Paying for When You Buy Fancy Butter",
+    description: "Walk through the dairy aisle these days, and the butter section tells a new story. Alongside familiar store-brand sticks are bars wrapped in parchment or foil, labeled with words like “European-style” or “cultured,” and priced two or three times higher. These options signal more than a simple pantry staple. They suggest that butter has become a place to express care, taste, and sometimes even status. Butter has shifted from background to foreground, with its role in both cooking and finishing dishes re-evaluated in kitchens across the country. Once thought of as simple and uniform, butter now carries the mark of craftsmanship and culinary choice.",
     role: "Content Creator & Editor",
-    client: "Self-initiated project",
-    year: "2015 – 2017",
-    tags: ["Blogging", "WordPress", "Food Photography"]
-  },
-  {
-    title: "Recipe Volunteer - Meals for All",
-    description: "Contributed recipes tailored to community needs. Focused on affordable, nutritious meal plans.",
-    role: "Volunteer Writer",
-    client: "Meals for All Project",
-    year: "Ongoing",
-    tags: ["Community", "Nutrition", "Volunteer Work"]
-  },
-  {
-    title: "Judge at Portland Food Cart Awards",
-    description: "Selected and rated Portland's best food carts, emphasizing originality, taste, and cultural impact.",
-    role: "Food Awards Judge",
-    client: "Portland Events",
-    year: "Ongoing",
-    tags: ["Curation", "Food Trends", "Cultural Writing"]
+    date: "June 20 2025",
+    href: "What_You’re_Actually_Paying_for_When_You_Buy_Fancy_Butter.pdf"
   },
 ];
 
