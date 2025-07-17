@@ -59,10 +59,10 @@ const Portfolio = () => {
 
               <a
                 href={item.href}
-                download
+                // download
                 className="inline-block text-sm text-[#2d4a3a] underline hover:text-[#1b2d22] transition"
               >
-                Download PDF
+                Read PDF
               </a>
             </div>
           ))}
