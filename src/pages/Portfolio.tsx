@@ -8,7 +8,7 @@ const portfolioItems = [
     role: "Freelance Food Writer",
     date: "March 17, 2025",
     href: "When_Family_Recipes_Exist_Only_by_Memory.pdf",
-    tags: ["Memory", "Family", "Cooking"]
+    tags: ["Pantry Meals", "Comfort Food", "Sustainable Cooking"]
   },
   {
     title: "5 Comfort Dishes That Start with a Can of Fish",
@@ -16,7 +16,7 @@ const portfolioItems = [
     role: "Freelance Food Writer",
     date: "April 28, 2025",
     href: "5_Comfort_Dishes_That_Start_with_a_Can_of_Fish.pdf",
-    tags: ["Comfort Food", "Pantry Staples", "Canned Fish"]
+    tags: ["Food Label Literacy", "Ingredient Quality", "Food Shopping Tips"]
   },
   {
     title: "What You’re Actually Paying for When You Buy Fancy Butter",
@@ -24,7 +24,7 @@ const portfolioItems = [
     role: "Content Creator & Editor",
     date: "June 20, 2025",
     href: "What_You’re_Actually_Paying_for_When_You_Buy_Fancy_Butter.pdf",
-    tags: ["Dairy", "Butter", "Food Trends"]
+    tags: ["Family Traditions", "Cultural Food Memory", "Intuitive Cooking"]
   },
 ];
 
