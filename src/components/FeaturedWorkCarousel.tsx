@@ -87,33 +87,40 @@ const FeaturedWorkCarousel = () => {
               style={{ transform: `translateX(-${currentIndex * 100}%)` }}
             >
               {articles.map((article, index) => (
-                <div key={index} className="w-full flex-shrink-0 px-4">
-                  <div className="bg-white rounded-lg overflow-hidden shadow-lg border border-[#8ba888] border-opacity-10">
-                    <div className="relative h-64 w-full">
-                      <img
-                        src={article.image}
-                        alt={article.title}
-                        className="absolute inset-0 w-full h-full object-cover"
-                      />
-                      <div className="absolute top-4 left-4 bg-[#d4704a] text-white px-3 py-1 text-sm font-medium rounded-full">
-                        {article.publication}
-                      </div>
-                    </div>
-                    <div className="p-6">
-                      <h3 className="font-serif text-2xl font-bold text-[#2d4a3a] mb-3">
-                        {article.title}
-                      </h3>
-                      <p className="text-[#2d4a3a] mb-4">{article.excerpt}</p>
-                      <a
-                        href={article.href}
-                        className="inline-flex items-center text-[#d4704a] font-medium hover:underline"
-                        target="_blank" rel="noopener noreferrer"
-                      >
-                        Read Full Article
-                      </a>
-                    </div>
-                  </div>
-                </div>
+         <div key={index} className="w-full flex-shrink-0 px-4">
+         <div className="bg-white rounded-xl overflow-hidden shadow-xl border border-[#8ba888] border-opacity-10 max-w-4xl mx-auto">
+           
+           {/* 🌆 High-quality image ratio + padding */}
+           <div className="relative aspect-[16/9] w-full">
+             <img
+               src={article.image}
+               alt={article.title}
+               className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+               loading="lazy"
+             />
+             <div className="absolute top-4 left-4 bg-[#d4704a] text-white px-3 py-1 text-sm font-medium rounded-full shadow">
+               {article.publication}
+             </div>
+           </div>
+       
+           {/* 📜 Text content */}
+           <div className="p-6 md:p-8">
+             <h3 className="font-serif text-2xl md:text-3xl font-bold text-[#2d4a3a] mb-3">
+               {article.title}
+             </h3>
+             <p className="text-[#2d4a3a] mb-4 text-base md:text-lg">{article.excerpt}</p>
+             <a
+               href={article.href}
+               className="inline-flex items-center text-[#d4704a] font-medium hover:underline"
+               target="_blank" rel="noopener noreferrer"
+             >
+               Read Full Article
+             </a>
+           </div>
+       
+         </div>
+       </div>
+       
               ))}
             </div>
           </div>
